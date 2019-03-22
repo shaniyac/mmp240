@@ -12,6 +12,14 @@ font-family:cursive;
     color:#35A0BD;
     background-color:#000000;
 }
+
+#type{
+
+}
+
+.overlay{
+
+}
 h2{font-family:cursive;
     font-size: 50px;
     font-style:italic;
@@ -201,19 +209,4 @@ input[type=submit]:hover {
   width: 80%;
   margin-top: 6px;
   padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
 }
